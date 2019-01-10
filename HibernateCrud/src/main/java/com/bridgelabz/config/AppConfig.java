@@ -20,7 +20,7 @@ import static org.hibernate.cfg.Environment.*;
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
 @ComponentScans(value = { @ComponentScan("com.bridgelabz.dao"),
-      @ComponentScan("com.bridgelabz.service") })
+@ComponentScan("com.bridgelabz.service") })
 public class AppConfig {
 
    @Autowired
